@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+        }
+        .container{
+            background-color: aqua;
+            min-width: 60%;
+            height: 500px;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+        .form{
+            text-align: center;
+        }
+        input[type="text"]{
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center class="container">
+        <h3 class="test">Help us bring your Calculator to you by filling out this form</h3>
+        <form class="form">
+            <div><input type="text" Name="name" size="30" maxlength="15" placeholder="Name"></div>
+            <div><input type="text" Name="email" size="30" maxlength="15" placeholder="email"></div>
+            <div><input type="text" Name="address" size="30" maxlength="15" placeholder="address"></div>
+            <input type="checkbox" name="caluu1" value="ms1">MS OLD MODEL
+            <input type="checkbox" name="caluu2" value="ms2">MS NEW MODEL
+            <input type="checkbox" name="caluu3" value="esplus">ES PLUS
+            <input type="submit">
+        </form>
+    </center>
+</body>
+</html>
